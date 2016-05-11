@@ -1,3 +1,16 @@
+"""
+run.py
+Michael Lin (mbl2109@columbia.edu)
+Philippe-Guillaume Losembe (pvl2109@columbia.edu)
+Robert Cornacchia (rlc2160@columbia.edu)
+Oriana Fuentes (oriana.i.fuentes@columbia.edu)
+
+Recommender to be used with an AWS EMR Spark cluster
+Outputs 10 recommendations for user id: 2093760
+
+Note: hw3part1.ipynb has the same functionality, and was what we used for development
+"""
+
 from pyspark.mllib.recommendation import *
 from pyspark import SparkContext
 
